@@ -23,6 +23,15 @@ body {
   background-color: var(--white);
 }
 
+/*HEADER*/
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
+
+.div-header {
+  display: flex;
+}
+
 /*LOGO*/
 .web {
   font-family: var(--raleway);
