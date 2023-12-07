@@ -16,11 +16,16 @@
   --roboto: 'Roboto', sans-serif;
 }
 
-/*BODY-DEFAULT*/
+/*DEFAULT*/
 body {
   font-family: var(--roboto);
   color: var(--slate);
   background-color: var(--white);
+}
+
+nav {
+  display: flex;
+  align-items: center;
 }
 
 /*HEADER*/
@@ -32,6 +37,11 @@ body {
   display: flex;
 }
 
+.container {
+  width: 1158px;
+  padding: 0 15px 0 15px;
+}
+
 /*LOGO*/
 .web {
   font-family: var(--raleway);
@@ -41,6 +51,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
 }
 
 .studio,
@@ -55,6 +66,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  display: flex;
+  gap: 40px;
+  padding: 24px 0 24px;
 }
 
 .link {
@@ -78,6 +92,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  display: flex;
 }
 
 /*SECTION-1*/
