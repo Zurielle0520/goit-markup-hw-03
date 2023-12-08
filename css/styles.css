@@ -111,6 +111,7 @@ address {
 /*SECTION-1*/
 .hero {
   background-color: var(--navy-blue);
+  padding-top: 188px 0 188px;
 }
 
 .hero-title {
