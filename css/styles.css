@@ -144,6 +144,20 @@ address {
   background-color: var(--ocean);
 }
 
+/*SECTION-2*/
+.section-two {
+  padding: 120px 0 120px;
+}
+
+.sec-2-title {
+  display: none;
+}
+
+.features {
+  display: flex;
+  gap: 24px;
+}
+
 .title {
   font-weight: 500;
   font-size: 20px;
@@ -156,6 +170,10 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.feature-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .what_we_do-title,
