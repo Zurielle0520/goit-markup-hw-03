@@ -32,6 +32,10 @@ address {
   align-items: center;
 }
 
+img {
+  display: block;
+}
+
 /*HEADER*/
 .header {
   border-bottom: 1px solid var(--cornflower);
@@ -177,6 +181,11 @@ address {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
+/*SECTION-3*/
+.section-three {
+  padding-bottom: 120px;
+}
+
 .what_we_do-title,
 .team-title {
   font-size: 36px;
@@ -185,6 +194,16 @@ address {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 72px;
+}
+
+.what-we-do {
+  display: flex;
+  gap: 24px;
+}
+
+.what-we-do-list {
+  width: calc((100% - 48px) / 3);
 }
 
 .section-four {
