@@ -164,6 +164,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 
 .paragraph {
@@ -173,7 +174,7 @@ address {
 }
 
 .feature-list {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .what_we_do-title,
