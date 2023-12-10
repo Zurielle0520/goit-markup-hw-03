@@ -166,7 +166,7 @@ img {
   overflow: hidden;
 }
 
-.sec-2-list {
+.sec-two-list {
   flex-basis: calc((100%-96px) / 4);
 }
 
@@ -265,7 +265,7 @@ img {
   padding-bottom: 120px;
 }
 
-.portfolio-lists-1 {
+.portfolio-lists-one {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -288,7 +288,7 @@ img {
   border: 1px solid transparent;
 }
 
-.portfolio-lists-2 {
+.portfolio-lists-two {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
