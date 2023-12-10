@@ -166,6 +166,10 @@ img {
   overflow: hidden;
 }
 
+.feature-list {
+  width: calc((100%-72px) / 4);
+}
+
 .features {
   display: flex;
   gap: 24px;
@@ -210,8 +214,7 @@ img {
   gap: 24px;
 }
 
-.what-we-do-list,
-.feature-list {
+.what-we-do-list {
   width: calc((100%-72px) / 4);
 }
 
