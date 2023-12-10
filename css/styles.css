@@ -166,9 +166,6 @@ img {
   overflow: hidden;
 }
 
-.feature-list {
-}
-
 .features {
   display: flex;
   gap: 24px;
@@ -211,9 +208,6 @@ img {
 .what-we-do {
   display: flex;
   gap: 24px;
-}
-
-.what-we-do-list {
 }
 
 /*SECTION-4*/
