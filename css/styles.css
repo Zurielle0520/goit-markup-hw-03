@@ -174,8 +174,6 @@ img {
   color: var(--navy-blue);
   margin-bottom: 8px;
   text-align: center;
-  margin-bottom: 8px;
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .info {
@@ -305,6 +303,10 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+.portfolio-list {
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .app {
