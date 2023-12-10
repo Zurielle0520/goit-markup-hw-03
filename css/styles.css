@@ -166,8 +166,12 @@ img {
   overflow: hidden;
 }
 
-.info-card {
-  flex-basis: calc((100% - 72px) / 4);
+.feature-list {
+  width: calc((100% - 72px) / 4);
+}
+
+.features-list li:last-child {
+  margin-right: 0;
 }
 
 .our-features {
