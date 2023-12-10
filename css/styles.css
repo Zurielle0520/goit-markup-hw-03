@@ -166,6 +166,10 @@ img {
   overflow: hidden;
 }
 
+.features-list {
+  flex-basis: calc((100% - 96px) / 4);
+}
+
 .features {
   display: flex;
   gap: 24px;
