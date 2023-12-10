@@ -171,8 +171,6 @@ img {
 }
 
 .features {
-  display: flex;
-  gap: 24px;
 }
 
 .title {
