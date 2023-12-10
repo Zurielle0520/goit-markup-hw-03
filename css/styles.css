@@ -189,7 +189,7 @@ img {
   text-align: center;
 }
 
-.feature-list {
+.title {
   flex-basis: calc((100%-72px) / 4);
 }
 
