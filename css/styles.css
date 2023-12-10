@@ -153,8 +153,17 @@ img {
   padding: 120px 0 120px;
 }
 
-.sec-2-title {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  margin: -10px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .features {
