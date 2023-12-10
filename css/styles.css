@@ -189,10 +189,6 @@ img {
   text-align: center;
 }
 
-.title {
-  flex-basis: calc((100%-72px) / 4);
-}
-
 /*SECTION-3*/
 .section-three {
   padding-bottom: 120px;
@@ -214,8 +210,8 @@ img {
   gap: 24px;
 }
 
-.feature-list .what-we-do-list,
-.team-list {
+.what-we-do-list,
+.feature-list {
   width: calc((100%-72px) / 4);
 }
 
