@@ -166,11 +166,13 @@ img {
   overflow: hidden;
 }
 
-.sec-two-list {
+.info {
   flex-basis: calc((100% - 72px) / 4);
 }
 
 .features {
+  display: flex;
+  gap: 24px;
 }
 
 .title {
