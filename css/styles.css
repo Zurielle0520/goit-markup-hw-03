@@ -39,6 +39,7 @@ img {
 /*HEADER*/
 .header {
   border-bottom: 1px solid var(--cornflower);
+  box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .div-header {
